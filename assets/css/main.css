@@ -1,0 +1,205 @@
+/******************** GENERAL ********************/
+body {
+
+}
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.footer{
+    padding: 10px 0;
+}
+
+/******************** HEADER ********************/
+.header{
+    background: rgb(15,33,165);
+    padding: 30px 0;
+}
+
+.header h1 a {
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.navigation{
+    float: right;
+}
+
+.navigation li {
+    display: inline;
+    line-height: 22px;
+    margin-left: 10px;
+}
+
+.header .navigation li a{
+    color: white;
+    text-decoration: none;
+}
+
+.header .navigation li a:hover{
+    text-decoration: underline;
+}
+
+
+/******************** CONTENT ********************/
+.content{
+    margin: 10px 0 20px;
+}
+.h3 h2{
+    font-size: 24px;
+     font-weight: bold;
+     text-align: center;
+
+
+
+}
+.content h2 a:hover{
+    color: rgb(15 33 165);
+}
+.content p{
+    color: #555;
+}
+.content .learn-more:hover{
+    background: rgba(15, 33, 165, 0.6);
+
+}
+.content .learn-more{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+    background: rgb(15 33 165);
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+.content h2{
+    margin: 10px 0;
+    font-weight: bold;
+
+}
+
+.content h2 a{
+    text-decoration: none;
+    color: black;
+}
+.content img{
+    width: 100%;
+
+}
+
+.content a img:hover{
+   opacity: 0.8;
+
+}
+/******************** FOLD ********************/
+.fold{
+    margin: 0px 0px 20px;
+    
+}
+.fold-img-container{
+    position: relative;
+    margin: 20px 0 20px;
+
+}
+.fold-msg-container{
+    width: 300px;
+    height: 110px;
+    background: rgba(0,0,0,0.8);
+    position: absolute;
+    right: 250px;
+    bottom: 120px;
+    padding: 10px 20px;
+    text-align: center;
+
+}
+.fold-msg-container h2 a{
+ color: white;
+ font-size: 50px;
+ font-weight: bold;   
+
+}
+.fold-msg-container h2{
+    color: white;
+}
+.fold-msg-container p{
+    color: white;
+}
+/******************** big-inf-links ********************/
+
+.content .big-inf-links h2 a{
+    font-size: 22px;
+    font-weight: bold;
+               
+}
+
+.big-inf-links{
+    margin: 0 0 20px;
+}
+/******************** small-inf-links ********************/
+.small-inf-links{
+
+}
+.content .small-inf-links h2 a{
+    font-size: 18px;
+    font-weight: bold;
+}
+.content .small-inf-links img{
+    height: 93px;
+}
+.content .small-inf-links p{
+    height:64px;
+}
+
+/******************** small-people ********************/
+.small-people{
+
+}
+.small-people h2 {
+    font-size: 15px;
+    font-weight: bold;
+}
+.small-people p {
+    color: black;
+    
+}
+.small-people img{
+
+}
+.small-people .grid__col{
+    margin-bottom: 20px;
+    
+}
+/******************** big-people ********************/
+.big-people{
+
+}
+.big-people h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+.big-people p {
+    color: black;
+    
+}
+.big-people img{
+
+}
+.big-people .grid__col{
+    margin-bottom: 20px;
+    
+}
+
+
+
+
+/******************** FOOTER ********************/
+.footer{
+    background: rgb(220,200,200);
+    text-align: center;
+}
+
+
+
